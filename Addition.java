@@ -8,7 +8,7 @@ public class Addition {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int first = 0, second = 0, result = 0;
+        int first, second, result;
         System.out.print("Enter the first integer: ");
         String value = scanner.next();
         while (!isInt(value)) {
